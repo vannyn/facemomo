@@ -15,17 +15,16 @@ import { RouterLink, RouterView } from 'vue-router'
     <div id="app" class="wrapper">
       <div class="wrapper" id="selectVideo">
         <h2>1. Select your favorite MEME</h2>
-        <GifSelector>SELECT</GifSelector>
+        <GifSelector></GifSelector>
         
       </div>
       <div class="wrapper" id="uploadImage"></div>
         <h2>2. Upload your picture</h2>
         <image-uploader @image-uploaded="setImage"></image-uploader>
 
-      <div class="wrapper">
-        <h2>3. Accept & Submit</h2>
+      <div>
         <input type="checkbox" id="terms" v-model="acceptedTerms">
-        <label for="terms"><a href>I accept the Terms & Conditions</a></label>
+        <label for="terms">Accetto i termini e le condizioni</label>
       </div>
 
       <button :disabled="!canSubmit" @click="submitForm">Submit</button>
@@ -35,7 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/momo">What is MOMO</RouterLink>
-        <RouterLink to="/tec">Terms & Conditions</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
       </nav>
   </footer>
 </template>
