@@ -1,0 +1,22 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facemomo-dev-222323-authRole",
+      "UnauthRoleArn": "arn:aws:iam::555917476422:role/amplify-facemomo-dev-222323-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::555917476422:role/amplify-facemomo-dev-222323-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facemomo-dev-222323-deployment",
+      "UnauthRoleName": "amplify-facemomo-dev-222323-unauthRole",
+      "StackName": "amplify-facemomo-dev-222323",
+      "StackId": "arn:aws:cloudformation:us-east-1:555917476422:stack/amplify-facemomo-dev-222323/6f1b7070-df24-11ee-9f7b-1219f855fc11",
+      "AmplifyAppId": "d2hkqt962m5mp1"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2024-03-10T21:30:37.150Z"
+    }
+  }
+}
